@@ -1,3 +1,10 @@
+/*!
+8 bit art
+Version - 0.1
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Andrey Pavlov | andrey@betlabs.ru
+*/
 var marioShoes = 
 [
 [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
