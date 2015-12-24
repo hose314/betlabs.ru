@@ -634,5 +634,5 @@ var movie = [
 ]
 
 for (var i = 0; i < movie.length; ++i) {
-	setTimeout(movie[i], i * 3000);
+	setTimeout(movie[i], i * 2000);
 }
