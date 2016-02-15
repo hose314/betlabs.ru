@@ -1,0 +1,8 @@
+{
+  "assetsByChunkName": {
+    "app": [
+      "app.js",
+      "common.css"
+    ]
+  }
+}
