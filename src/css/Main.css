@@ -518,11 +518,11 @@ body
 	    -ms-transition: transform .25s ease-in-out;
 	     -o-transition: transform .25s ease-in-out;
 	        transition: transform .25s ease-in-out;
-	-webkit-transform: scaleX(0.0001);
-	   -moz-transform: scaleX(0.0001);
-	    -ms-transform: scaleX(0.0001);
-	     -o-transform: scaleX(0.0001);
-	        transform: scaleX(0.0001);
+	-webkit-transform: scaleX(0.00001);
+	   -moz-transform: scaleX(0.00001);
+	    -ms-transform: scaleX(0.00001);
+	     -o-transform: scaleX(0.00001);
+	        transform: scaleX(0.00001);
 	transition: transform 250ms ease-in-out;
 }
 .navigation-item_as-link:hover:after {
