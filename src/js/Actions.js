@@ -103,6 +103,16 @@ var actions = function() {
 				scrollTop: $('.section-'+menuVals[menuIndex]).offset().top
 			}, 600);
 		});
+		$(".js-start-btn").on("click", function() {
+			$("body, html").animate({
+				scrollTop: $('.section-contacts').offset().top
+			}, 600);
+		});
+		$(".js-labs-btn").on("click", function() {
+			$("body, html").animate({
+				scrollTop: $('.section-labs').offset().top
+			}, 600);
+		});
 		
 	});
 };
