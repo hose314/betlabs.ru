@@ -92,10 +92,6 @@ var actions = function() {
 			});
 		});
 
-		$('.logo-container').on('click', function() {
-			window.location.replace('/');
-		});
-
 		var menuVals = ["menu","about", "labs", "portfolio", "contacts"];
 		$(".navigation-item").on("click", function() {
 			var menuIndex = parseInt($(this).data("level"));
