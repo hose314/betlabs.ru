@@ -848,6 +848,9 @@ body
 {
 	padding: 0.7rem 0 0.7rem 1.5rem;
 }
+.m-menu-item:hover{
+	cursor: pointer;
+}
 .m-menu-item__link
 {
 	font-size: 1.5rem;

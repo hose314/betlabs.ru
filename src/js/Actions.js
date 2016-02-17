@@ -99,6 +99,21 @@ var actions = function() {
 				scrollTop: $('.section-'+menuVals[menuIndex]).offset().top
 			}, 600);
 		});
+		$(".m-menu-item").on("click", function() {
+			$('.mobile-menu').slideToggle();
+			$('.js-mobile-menu').toggleClass('active');
+			$('.js-mobile-menu').find('*').each(function() {
+				$(this).toggleClass('active');
+			});
+			$('.navigation-content').toggleClass('active');
+			$('.navigation').toggleClass('active');
+			$('.mobile-navigations-items').toggleClass('active');
+
+			var menuIndex = parseInt($(this).data("level"));
+			$("body, html").animate({
+				scrollTop: $('.section-'+menuVals[menuIndex]).offset().top
+			}, 600);
+		});
 		$(".js-start-btn").on("click", function() {
 			$("body, html").animate({
 				scrollTop: $('.section-contacts').offset().top
