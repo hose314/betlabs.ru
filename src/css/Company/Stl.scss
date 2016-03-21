@@ -118,3 +118,34 @@ $text-color: #4A4A4A;
 		}
 	}
 }
+.tech-stack {
+	&-list {
+		width: 100%;
+		text-align: left;
+		margin: 0 auto;
+		max-width: 400px;
+		list-style: none;
+		border: 1px solid #eee;
+		border-radius: 4px;
+	}
+	&__logo {
+		position: absolute;
+		right: 1rem;
+	}
+	&__item {
+		padding: 1rem;
+		border-bottom: 1px solid #eee;
+		position: relative;
+	}
+	&__header {
+		width: 100%;
+		font-weight: 400;
+		color: #455A64;
+		font-size: 0.85rem;
+	}
+	&__desc {
+		color: #6F7C82;
+		font-size: 0.65rem;
+		font-weight: 300;
+	}
+}
