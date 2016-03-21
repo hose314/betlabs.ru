@@ -3,14 +3,13 @@ $text-color: #4A4A4A;
 .c-intro-box {
 	position: relative;
 	width: 100%;
-	min-height: 60vh;
 	border-bottom: 1px solid #eee;
-
+	padding-top: 80px;
 	&__img-box {
+		max-width: 990px;
+		text-align: center;
 		margin: 0 auto;
 		bottom: 1px;
-		width: 60%;
-		position: absolute;
 		left: 0;
 		right: 0;
 		> img {
@@ -23,6 +22,7 @@ $text-color: #4A4A4A;
 .c-container {
 	font-family: "Open Sans", sans-serif;
 	min-height: 100vh;
+	background-color: #fff;
 }
 .about-project {
 	text-align: center;
@@ -44,6 +44,15 @@ $text-color: #4A4A4A;
 		font-size: 1rem;
 		color: #4A4A4A;
 		opacity: 0.8;
+	}
+	&__link {
+		padding: 1rem 0 0 0;
+		a {
+			font-size: 0.8rem;
+			font-weight: 300;
+			text-decoration: none;
+			color: #2196f3;
+		}
 	}
 	&:after {
 		width: 20%;
