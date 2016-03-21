@@ -108,11 +108,12 @@ $text-color: #4A4A4A;
 	}
 
 	&-img {
+		text-align: center;
 		&_full {
 			text-align: center;
 		}
 		> img {
-			max-width: 100%;
+			max-width: 450px;
 			height: auto;
 			width: auto\9; /* ie8 */
 		}
