@@ -171,6 +171,15 @@ body {
 }
 
 @media handheld, only screen and (max-width: 767px) {
+	div.land-box-text__header {
+		font-size: 1.3rem;
+	}
+	div.about-project__header {
+		font-size: 1.5rem;
+	}
+	.land-box-img>img {
+	    max-width: 280px;
+	}
 	li.enum-list-item {
 		width: 100% !important;
 		float: none !important;
