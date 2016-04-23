@@ -103,7 +103,7 @@ var ContactForm = function (options) {
 		}
 		$.ajax({
 			   type: "POST",
-			   url: "http://www.laoptic.com/afh/",
+			   url: "https://young-journey-50797.herokuapp.com/betlabs",
 			   data: JSON.stringify(data),
 			   success: function(){
 					var activeElem = $('.email-form-step.active');
