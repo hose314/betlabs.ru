@@ -102,7 +102,7 @@ var ContactForm = function (options) {
 			message: msgField.val(),
 		}
 		$.ajax({
-			   type: "POST",
+			   method: "POST",
 			   url: "https://young-journey-50797.herokuapp.com/betlabs",
 			   headers: {
                     'Access-Control-Allow-Origin': '*'
