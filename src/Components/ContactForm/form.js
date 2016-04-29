@@ -104,9 +104,6 @@ var ContactForm = function (options) {
 		$.ajax({
 			   method: "POST",
 			   url: "https://young-journey-50797.herokuapp.com/betlabs",
-			   headers: {
-                    'Access-Control-Allow-Origin': '*'
-               },
 			   data: JSON.stringify(data),
 			   success: function(){
 					var activeElem = $('.email-form-step.active');
